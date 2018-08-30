@@ -9,7 +9,7 @@ if (!file_exists('sessions')) {
 include 'madeline.php';
 global $MadelineProto;
 $numb = file_get_contents("vNumber.txt");
-$settings = ['madeline' => ['app_info' => ['api_id' => 303167, 'api_hash' => '241b450119dc19477484f15c94c8f272', 'lang_code' => 'it', 'app_version' => '4.7.0']], 'repeat' => "true"];
+$settings = ['madeline' => ['app_info' => ['api_id' => 6, 'api_hash' => 'your-api-hash-here', 'lang_code' => 'it', 'app_version' => '4.7.0']], 'repeat' => "true"];
 $MadelineProto = new \danog\MadelineProto\API("Voip$numb", $settings['madeline']);
 if ($argv[0] == 'create') {
     echo "MTClient V1.0 by @NoMoreBadBoyZ, based on Madeline Proto\n";
