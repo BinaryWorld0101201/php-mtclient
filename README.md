@@ -25,3 +25,4 @@ and wait for instructions
 If you found any bug or anything contact @NoMoreBadBoyZ
 
 Pull-requests are welcomes!
+Please also join my group https://t.me/joinchat/GaqX_lDrzX3EkRvF3HJ_xw for support
